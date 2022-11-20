@@ -9,3 +9,11 @@ What is this repository?
 How do I run this project?
 > Instructions are int his README file and are for a Windows environment
 
+Neccesary Build Requirements
+>You must have gradle installed before you can build this project
+
+Known Bugs
+>no bugs it is perfect like my physiche
+
+Questions?
+>Email tdwyer@hawk.iit.edu
