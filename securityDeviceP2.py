@@ -2,7 +2,6 @@
 import random
 from time import sleep
 
-
 def LockCheck(key, LockStatus):
     if key == 1 and LockStatus is True: #if unlock value is entered and lock is locked
         print("Unlocked")
