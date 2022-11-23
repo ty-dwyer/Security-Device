@@ -7,7 +7,7 @@ What is this repository?
 > The code ultilizes a Finite State Machine to tell wether the correct passcode is inputted and changes from locked to unlocked.
  
 How do I run this project?
-> Instructions are int his README file and are for a Windows environment
+> Instructions are int his README file and are for a ubuntu environment
 
 Summary of setup
 > You Must have python installed
