@@ -23,18 +23,9 @@ def main():
     LockStatus = True
     State = 0
 
-    print("Part 1")
-    print(" Your program will read from standard input without echoing the input characters. Characters other than digits 0 throuh 9 will be quietly discarded. \n",
-            "Your engine will recognize a fixed access code. The access code will be the least significant five digits in your student ID, \n",
-            "followed by a 1 for the unlock code and by a 4 for the locking code.\n",
-            "\n",
-            "DDDDD1 is the unlocking code \n",
-            "DDDDD4 is the locking code \n",
-            "\n",
-            "Where DDDDD are the lest significant five digits in your student ID. \n",
-            "As soon as the last digit of the access code is entered, your program will signal the action taken (lock or unlock).)")
+    print("Input Passcode:")
     while(True):
-        val = input(">> ")
+        val = input(" ")
         key = getDigit(Code, State)
     
         if val is key:
