@@ -33,7 +33,7 @@ def main():
         else:
             State = 0
         if State == 5:
-            Value = int(input("key >> "))
+            Value = int(input("key: "))
             LockStatus = LockCheck(Value, LockStatus)
             State = 0
 
